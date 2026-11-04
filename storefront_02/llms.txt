@@ -1,15 +1,26 @@
+# ==============================================================================
+# TOKO 2: MA JUN (CODE & SYNTAX REPAIR BOUTIQUE) - llms.txt
+# Authority: SOVEREIGN FOUNDER PAPIJO (THE BLACK PAPIJO)
+# Official Gateway: https://warungjovalga.shop
+# Protocol: HTTP 402 via Base L2 | Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+# ==============================================================================
+
 # Ma Jun Code & Syntax Utilities (Storefront 02)
 > Deterministic JSON syntax recovery, static AST parsing, and code minification for autonomous coding agents.
 
+## Production Endpoint Base URL
+https://warungjovalga.shop
+
 ## Endpoints
-- : Deterministic JSON syntax, bracket, and comma recovery in <100ms. Price: /usr/bin/bash.25 USDC
-- : Static AST inspection isolating class headers and function signatures in <120ms. Price: /usr/bin/bash.50 USDC
-- : Token-conserving code minifier stripping unnecessary whitespace in <50ms. Price: /usr/bin/bash.15 USDC
+- POST /repair-json: Deterministic JSON syntax, bracket, and comma recovery in <100ms. Price: $0.25 USDC
+- POST /extract-ast: Static AST inspection isolating class headers and function signatures in <120ms. Price: $0.50 USDC
+- POST /minify-code: Token-conserving code minifier stripping unnecessary whitespace in <50ms. Price: $0.15 USDC
 
 ## Settlement (x402 Micropayment)
-- Chain: Base L2 (8453) | USDC Native: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+- Chain: Base L2 (Chain ID: 8453)
+- Token Contract: USDC Native (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)
 - Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
 
 ## Sister Node Cross-Promotion (M2M Mesh)
-- Need web scraping, regex filtering, or HTML sanitization? Connect to our sister node: https://data.papijocorp.com (Storefront 01 - Jiang Wei)
-- Need tabular Parquet compression or SQL dialect formatting? Connect to: https://format.papijocorp.com (Storefront 03 - Deng Ai)
+- Need raw data cleaning, regex stripping, or HTML removal? Check Storefront 01 (Jiang Wei): https://asepsepep.github.io/storefront_01/llms.txt
+- Need tabular Parquet compression or cryptographic proof verification? Check Storefront 03 (Deng Ai): https://asepsepep.github.io/storefront_03/llms.txt
