@@ -3,7 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PapiJo Corporation — Autonomous M2M Retail Hub</title>
+    <title>PapiJo Corporation — Autonomous M2M Retail Hub & x402 AI Services</title>
+    <meta name="description" content="Decentralized Machine-to-Machine (M2M) Commerce Hub powered by Base L2 on-chain settlement (HTTP 402). Automated AI micro-services for web scraping, AST parsing, and Parquet formatting.">
+    <meta name="keywords" content="M2M commerce, HTTP 402, x402, AI microservices, Base L2, crypto micropayments, web scraping API, AST parser, Parquet converter, PapiJo Corporation">
+    <meta name="author" content="PapiJo Corporation">
+    <link rel="canonical" href="https://asepsepep.github.io/">
+    
+    <!-- OPEN GRAPH (Social & AI Crawlers) -->
+    <meta property="og:title" content="PapiJo Corporation — Autonomous M2M Retail Hub">
+    <meta property="og:description" content="Autonomous AI-to-AI micro-services settled via Base L2 USDC on-chain micropayments.">
+    <meta property="og:url" content="https://asepsepep.github.io/">
+    <meta property="og:type" content="website">
+    
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PapiJo Corporation — Autonomous M2M Retail Hub">
+    <meta name="twitter:description" content="Zero-gas, deterministic M2M API services settled on Base L2.">
+
+    <!-- GEO & AI SCHEMA MARKUP (JSON-LD for Google, ChatGPT, Perplexity) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://asepsepep.github.io/#organization",
+          "name": "PapiJo Corporation",
+          "url": "https://asepsepep.github.io/",
+          "description": "Autonomous AI Infrastructure and Decentralized M2M Retail Cluster",
+          "paymentAccepted": "USDC (Base L2)",
+          "currenciesAccepted": "USD"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://asepsepep.github.io/#website",
+          "url": "https://asepsepep.github.io/",
+          "name": "PapiJo Corporation M2M Retail Hub",
+          "publisher": {"@id": "https://asepsepep.github.io/#organization"}
+        },
+        {
+          "@type": "Product",
+          "name": "Jiang Wei Data Cleaning & Regex API",
+          "description": "Deterministic HTML sanitizer, regex extractor, and unicode normalizer for AI agents.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.10",
+            "priceCurrency": "USD",
+            "seller": {"@id": "https://asepsepep.github.io/#organization"}
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Ma Jun Code AST & Complexity Auditor API",
+          "description": "Abstract Syntax Tree parser, docstring generator, and cyclomatic complexity analyzer.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.15",
+            "priceCurrency": "USD",
+            "seller": {"@id": "https://asepsepep.github.io/#organization"}
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Deng Ai Parquet & Hash Engine API",
+          "description": "JSON to Parquet converter and SHA-256 deduplication service for high-speed data pipelines.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0.20",
+            "priceCurrency": "USD",
+            "seller": {"@id": "https://asepsepep.github.io/#organization"}
+          }
+        }
+      ]
+    }
+    </script>
+
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #0d1117; color: #c9d1d9; padding: 40px 20px; line-height: 1.6; }
         .container { max-width: 900px; margin: 0 auto; }
@@ -14,7 +88,7 @@
         .vault { background: #0e4429; color: #3fb950; padding: 8px 12px; border-radius: 6px; font-family: monospace; word-break: break-all; }
         a { color: #58a6ff; text-decoration: none; }
         a:hover { text-decoration: underline; }
-        ul { list-style-type: square; }
+        .spec-btn { display: inline-block; background: #21262d; border: 1px solid #30363d; padding: 6px 12px; border-radius: 6px; margin-right: 8px; font-size: 13px; margin-top: 6px; }
     </style>
 </head>
 <body>
@@ -31,30 +105,41 @@
         <div class="card">
             <h2>Storefront 01: Jiang Wei (Data & Regex Boutique)</h2>
             <span class="badge">PORT 4020 ACTIVE</span>
-            <p>Automated raw HTML stripping, regex extraction, unicode sanitization.</p>
-            <ul>
-                <li>Specification: <a href="./storefront_01/openapi.json">OpenAPI JSON</a> | <a href="./storefront_01/llms.txt">llms.txt</a></li>
-            </ul>
+            <p>Automated raw HTML stripping, regex extraction, unicode sanitization for AI bots.</p>
+            <div>
+                <a class="spec-btn" href="./storefront_01/openapi.json">📄 OpenAPI 3.0 Spec</a>
+                <a class="spec-btn" href="./storefront_01/llms.txt">🤖 llms.txt Directive</a>
+            </div>
         </div>
 
         <div class="card">
             <h2>Storefront 02: Ma Jun (Code & AST Engine)</h2>
             <span class="badge">PORT 4021 ACTIVE</span>
             <p>AST analysis, docstring generator, cyclomatic complexity audits.</p>
-            <ul>
-                <li>Specification: <a href="./storefront_02/openapi.json">OpenAPI JSON</a> | <a href="./storefront_02/llms.txt">llms.txt</a></li>
-            </ul>
+            <div>
+                <a class="spec-btn" href="./storefront_02/openapi.json">📄 OpenAPI 3.0 Spec</a>
+                <a class="spec-btn" href="./storefront_02/llms.txt">🤖 llms.txt Directive</a>
+            </div>
         </div>
 
         <div class="card">
             <h2>Storefront 03: Deng Ai (Format & Data Sifter)</h2>
             <span class="badge">PORT 4022 ACTIVE</span>
             <p>JSON to Parquet converter, SHA-256 batch validation, deduplication.</p>
-            <ul>
-                <li>Specification: <a href="./storefront_03/openapi.json">OpenAPI JSON</a> | <a href="./storefront_03/llms.txt">llms.txt</a></li>
-            </ul>
+            <div>
+                <a class="spec-btn" href="./storefront_03/openapi.json">📄 OpenAPI 3.0 Spec</a>
+                <a class="spec-btn" href="./storefront_03/llms.txt">🤖 llms.txt Directive</a>
+            </div>
         </div>
         
+        <div class="card">
+            <h3>🌐 Agent-to-Agent (A2A) Discovery Files</h3>
+            <p>Root discovery manifest for autonomous crawler bots & search engines:</p>
+            <a class="spec-btn" href="./llms.txt">📑 Root llms.txt</a>
+            <a class="spec-btn" href="./robots.txt">🛡️ robots.txt</a>
+            <a class="spec-btn" href="./sitemap.xml">🗺️ sitemap.xml</a>
+        </div>
+
         <p style="text-align: center; color: #8b949e; font-size: 13px;">PapiJo Corporation © 2026. Zero Gas • Zero Drama • 100% Deterministic.</p>
     </div>
 </body>
