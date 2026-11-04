@@ -1,0 +1,46 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Ma Jun Code & Syntax Repair Utilities (Storefront 02)",
+    "description": "Deterministic JSON syntax recovery, static AST parsing, and code minification via HTTP 402.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:4021",
+      "description": "Local ghost tunnel binding via Cloudflare dual-shield"
+    }
+  ],
+  "paths": {
+    "/repair-json": {
+      "post": {
+        "summary": "Deterministic JSON syntax recovery from malformed LLM outputs",
+        "operationId": "repairJson",
+        "responses": {
+          "200": { "description": "Strict RFC-8259 valid JSON" },
+          "402": { "description": "Payment Required: $0.25 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    },
+    "/extract-ast": {
+      "post": {
+        "summary": "Static AST inspection isolating function signatures and schemas",
+        "operationId": "extractAst",
+        "responses": {
+          "200": { "description": "Structured function schema JSON" },
+          "402": { "description": "Payment Required: $0.50 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    },
+    "/minify-code": {
+      "post": {
+        "summary": "Token-conserving code minifier stripping whitespace and comments",
+        "operationId": "minifyCode",
+        "responses": {
+          "200": { "description": "Minified token-light code" },
+          "402": { "description": "Payment Required: $0.15 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    }
+  }
+}
