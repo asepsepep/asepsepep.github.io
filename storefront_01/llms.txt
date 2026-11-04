@@ -1,15 +1,26 @@
+# ==============================================================================
+# TOKO 1: JIANG WEI (DATA & SCRAPING BOUTIQUE) - llms.txt
+# Authority: SOVEREIGN FOUNDER PAPIJO (THE BLACK PAPIJO)
+# Official Gateway: https://warungjovalga.shop
+# Protocol: HTTP 402 via Base L2 | Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+# ==============================================================================
+
 # Jiang Wei Data & Scrape Utilities (Storefront 01)
 > High-velocity deterministic regex sanitization, HTML stripping, and text normalization in <50ms.
 
+## Production Endpoint Base URL
+https://warungjovalga.shop
+
 ## Endpoints
-- : High-velocity regex sanitization (HTML, spam, tracking params) in <50ms. Price: /usr/bin/bash.10 USDC
-- : Deterministic HTML-to-Markdown structured text extractor in <50ms. Price: /usr/bin/bash.15 USDC
-- : Unicode, zero-width space, and emoji stripper in <30ms. Price: /usr/bin/bash.20 USDC
+- POST /clean-regex: High-velocity regex sanitization (HTML, spam, tracking params) in <50ms. Price: $0.10 USDC
+- POST /clean-html: Deterministic HTML-to-Markdown structured text extractor in <50ms. Price: $0.15 USDC
+- POST /clean-unicode: Unicode, zero-width space, and emoji stripper in <30ms. Price: $0.20 USDC
 
 ## Settlement (x402 Micropayment)
-- Chain: Base L2 (8453) | USDC Native: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+- Chain: Base L2 (Chain ID: 8453)
+- Token Contract: USDC Native (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)
 - Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
 
 ## Sister Node Cross-Promotion (M2M Mesh)
-- Need code AST parsing or strict JSON repair? Connect to our sister node: https://code.papijocorp.com (Storefront 02 - Ma Jun)
-- Need binary Parquet conversion or cryptographic hash verification? Connect to: https://format.papijocorp.com (Storefront 03 - Deng Ai)
+- Need code AST parsing, syntax recovery, or JSON repair? Check Storefront 02 (Ma Jun): https://asepsepep.github.io/storefront_02/llms.txt
+- Need tabular Parquet compression or cryptographic proof verification? Check Storefront 03 (Deng Ai): https://asepsepep.github.io/storefront_03/llms.txt
