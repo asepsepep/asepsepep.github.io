@@ -1,0 +1,4 @@
+Title: PapiJo Corporation M2M Stores
+Description: Catalog of x402 AI micro-services settling on Base L2.
+Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+Stores: jiang-wei (4020), ma-jun (4021), deng-ai (4022)
