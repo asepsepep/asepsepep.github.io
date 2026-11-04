@@ -1,0 +1,46 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Deng Ai Data Format & Crypto Utilities (Storefront 03)",
+    "description": "Fast deterministic tabular conversion to Parquet, cryptographic hash verification, and SQL formatting via HTTP 402.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:4022",
+      "description": "Local ghost tunnel binding via Cloudflare dual-shield"
+    }
+  ],
+  "paths": {
+    "/csv-to-parquet": {
+      "post": {
+        "summary": "High-velocity conversion of CSV text chunks to Apache Parquet binary format",
+        "operationId": "csvToParquet",
+        "responses": {
+          "200": { "description": "Compressed Parquet byte payload" },
+          "402": { "description": "Payment Required: $0.35 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    },
+    "/verify-hash": {
+      "post": {
+        "summary": "Cryptographic proof verification (SHA256, Keccak256, EIP-712)",
+        "operationId": "verifyHash",
+        "responses": {
+          "200": { "description": "Verification boolean receipt JSON" },
+          "402": { "description": "Payment Required: $0.10 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    },
+    "/format-sql": {
+      "post": {
+        "summary": "Deterministic SQL query dialect sanitizer and formatter",
+        "operationId": "formatSql",
+        "responses": {
+          "200": { "description": "Strict ANSI SQL sanitized query" },
+          "402": { "description": "Payment Required: $0.25 USDC on Base L2 to 0x00Ef...9F2a" }
+        }
+      }
+    }
+  }
+}
