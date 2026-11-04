@@ -2,13 +2,13 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Jiang Wei Data & Scrape Utilities (Storefront 01)",
-    "description": "High-velocity deterministic regex sanitization, HTML stripping, and text normalization via HTTP 402.",
+    "description": "High-velocity deterministic regex sanitization, HTML stripping, and text normalization via HTTP 402 on Base L2.",
     "version": "1.0.0"
   },
   "servers": [
     {
-      "url": "http://127.0.0.1:4020",
-      "description": "Local ghost tunnel binding via Cloudflare dual-shield"
+      "url": "https://warungjovalga.shop",
+      "description": "Official Production Gateway (Cloudflare Dual-Shield Edge)"
     }
   ],
   "paths": {
@@ -17,8 +17,12 @@
         "summary": "High-velocity regex sanitization (HTML, spam, tracking params)",
         "operationId": "cleanRegex",
         "responses": {
-          "200": { "description": "Pure clean text string" },
-          "402": { "description": "Payment Required: $0.10 USDC on Base L2 to 0x00Ef...9F2a" }
+          "200": {
+            "description": "Pure clean text string"
+          },
+          "402": {
+            "description": "Payment Required: $0.10 USDC on Base L2 to 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a"
+          }
         }
       }
     },
@@ -27,8 +31,12 @@
         "summary": "Deterministic HTML-to-Markdown structured text extractor",
         "operationId": "cleanHtml",
         "responses": {
-          "200": { "description": "Clean structured Markdown" },
-          "402": { "description": "Payment Required: $0.15 USDC on Base L2 to 0x00Ef...9F2a" }
+          "200": {
+            "description": "Clean structured Markdown"
+          },
+          "402": {
+            "description": "Payment Required: $0.15 USDC on Base L2 to 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a"
+          }
         }
       }
     },
@@ -37,8 +45,12 @@
         "summary": "Unicode, zero-width space, and emoji stripper",
         "operationId": "cleanUnicode",
         "responses": {
-          "200": { "description": "Standard ASCII / UTF-8 clean text" },
-          "402": { "description": "Payment Required: $0.20 USDC on Base L2 to 0x00Ef...9F2a" }
+          "200": {
+            "description": "Standard ASCII / UTF-8 clean text"
+          },
+          "402": {
+            "description": "Payment Required: $0.20 USDC on Base L2 to 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a"
+          }
         }
       }
     }
