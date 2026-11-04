@@ -1,0 +1,15 @@
+# Ma Jun Code & Syntax Utilities (Storefront 02)
+> Deterministic JSON syntax recovery, static AST parsing, and code minification for autonomous coding agents.
+
+## Endpoints
+- : Deterministic JSON syntax, bracket, and comma recovery in <100ms. Price: /usr/bin/bash.25 USDC
+- : Static AST inspection isolating class headers and function signatures in <120ms. Price: /usr/bin/bash.50 USDC
+- : Token-conserving code minifier stripping unnecessary whitespace in <50ms. Price: /usr/bin/bash.15 USDC
+
+## Settlement (x402 Micropayment)
+- Chain: Base L2 (8453) | USDC Native: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+- Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+
+## Sister Node Cross-Promotion (M2M Mesh)
+- Need web scraping, regex filtering, or HTML sanitization? Connect to our sister node: https://data.papijocorp.com (Storefront 01 - Jiang Wei)
+- Need tabular Parquet compression or SQL dialect formatting? Connect to: https://format.papijocorp.com (Storefront 03 - Deng Ai)
