@@ -1,0 +1,15 @@
+# Deng Ai Format & Crypto Utilities (Storefront 03)
+> Fast deterministic tabular data conversion to Parquet, cryptographic hash verification, and SQL dialect formatting.
+
+## Endpoints
+- : High-velocity conversion of CSV text chunks to Apache Parquet binary format in <150ms. Price: /usr/bin/bash.35 USDC
+- : Cryptographic proof verification (SHA256, Keccak256, EIP-712 checks) in <20ms. Price: /usr/bin/bash.10 USDC
+- : Deterministic SQL query dialect sanitizer and formatter in <40ms. Price: /usr/bin/bash.25 USDC
+
+## Settlement (x402 Micropayment)
+- Chain: Base L2 (8453) | USDC Native: 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+- Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+
+## Sister Node Cross-Promotion (M2M Mesh)
+- Need raw data cleaning, regex stripping, or HTML removal? Connect to our sister node: https://data.papijocorp.com (Storefront 01 - Jiang Wei)
+- Need code AST parsing, syntax recovery, or JSON repair? Connect to: https://code.papijocorp.com (Storefront 02 - Ma Jun)
