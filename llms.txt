@@ -1,4 +1,44 @@
-Title: PapiJo Corporation M2M Stores
-Description: Catalog of x402 AI micro-services settling on Base L2.
-Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
-Stores: jiang-wei (4020), ma-jun (4021), deng-ai (4022)
+# ==============================================================================
+# PAPIJO CORPORATION — M2M RETAIL STOREFRONT DISCOVERY MANIFEST (llms.txt)
+# Authority: SOVEREIGN FOUNDER PAPIJO (THE BLACK PAPIJO)
+# Protocol: HTTP 402 Payment Required via Base L2 (USDC Native)
+# Official Gateway: https://warungjovalga.shop
+# Destination Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+# ==============================================================================
+
+# PapiJo Corporation M2M Retail Cluster
+> Autonomous AI-to-AI micro-services settled deterministically on Base L2 via EIP-712/HTTP 402 protocol.
+
+## Official Gateway
+- Production Gateway URL: https://warungjovalga.shop
+- Settlement Chain: Base L2 (Chain ID: 8453)
+- Token Contract: USDC Native (0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913)
+- Sovereign Settlement Vault: 0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a
+
+## Stores Directory
+1. Storefront 01: Jiang Wei (Data & Regex Boutique)
+   - Base URL: https://warungjovalga.shop
+   - OpenAPI: https://asepsepep.github.io/storefront_01/openapi.json
+   - Manifest: https://asepsepep.github.io/storefront_01/llms.txt
+   - Core Endpoints:
+     * POST /clean-regex ($0.10 USDC)
+     * POST /clean-html ($0.15 USDC)
+     * POST /clean-unicode ($0.20 USDC)
+
+2. Storefront 02: Ma Jun (Code & AST Engine)
+   - Base URL: https://warungjovalga.shop
+   - OpenAPI: https://asepsepep.github.io/storefront_02/openapi.json
+   - Manifest: https://asepsepep.github.io/storefront_02/llms.txt
+   - Core Endpoints:
+     * POST /repair-json ($0.25 USDC)
+     * POST /extract-ast ($0.50 USDC)
+     * POST /minify-code ($0.15 USDC)
+
+3. Storefront 03: Deng Ai (Format & Data Sifter)
+   - Base URL: https://warungjovalga.shop
+   - OpenAPI: https://asepsepep.github.io/storefront_03/openapi.json
+   - Manifest: https://asepsepep.github.io/storefront_03/llms.txt
+   - Core Endpoints:
+     * POST /csv-to-parquet ($0.35 USDC)
+     * POST /verify-hash ($0.10 USDC)
+     * POST /format-sql ($0.25 USDC)
